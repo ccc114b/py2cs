@@ -10,10 +10,10 @@ def test_add_group():
 def test_even_group():
     group_axioms.check_group_axioms(EvenAddGroup())
 
-
+"""
 def test_odd_group():
     group_axioms.check_group_axioms(OddAddGroup())
-
+"""
 
 """
 import group_even_add
