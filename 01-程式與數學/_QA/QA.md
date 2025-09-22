@@ -13,7 +13,7 @@
 1. 加法運算為交換群，乘法運算不含零為交換群
 2. 加法對乘法有分配律
 
-講義： [代數學 AI 對話錄](https://g.co/gemini/share/26eae576fd34)
+講義： [代數學講義](https://g.co/gemini/share/26eae576fd34)
 
 習題：有限體
 
@@ -40,7 +40,7 @@
 
 理解『向量與矩陣』在『幾何學』中的角色
 
-講義： [幾何學 AI 對話錄](https://g.co/gemini/share/d7ca79f3cf38)
+講義： [幾何學講義](https://g.co/gemini/share/d7ca79f3cf38)
 
 習題：請寫程式計算
 
@@ -56,7 +56,7 @@
 
 微積分基本定理：積分後再微分會得到原函數
 
-講義： [微積分 AI 對話錄](https://g.co/gemini/share/1ede3fde716c)
+講義： [微積分講義](https://g.co/gemini/share/1ede3fde716c)
 
 習題： f(x) = sin(x) ，令 x = pi，請算出連續 5 次微分 f(x) 的結果，也就是 f'''''(x) 
 
@@ -71,7 +71,7 @@
 2. 理解中央極限定理的意義
 3. 理解何謂檢定， z-test 和 t-test 分別是做什麼用的？
 
-講義： [機率統計 AI 對話錄](https://g.co/gemini/share/076a458d1faf)
+講義： [機率統計講義](https://g.co/gemini/share/076a458d1faf)
 
 習題：
 
@@ -85,7 +85,7 @@
 2. 為何用 log(p1 p2 .... pn) 會比直接計算 p1 p2 ... pn 更好
 3. 理解熵和霍夫曼編碼法的關係
 
-講義： [資訊理論 AI 對話錄](https://g.co/gemini/share/e598f4e098ba)
+講義： [資訊理論講義](https://g.co/gemini/share/e598f4e098ba)
 
 習題：
 
@@ -99,7 +99,7 @@
 1. 行列式的意義與用途 (先從 2D 理解行列式與外積的關係，擴充到 3D 理解遞回定義)
 2. LU 分解，特徵值分解，SVD 分解
 
-講義： [線性代數 AI 對話錄](https://g.co/gemini/share/7d2d90dc1a71)
+講義： [線性代數講義](https://g.co/gemini/share/7d2d90dc1a71)
 
 習題： 
 
@@ -114,11 +114,11 @@
 2. 牛頓力學
 3. 馬克士威方程組
 
-講義： [向量微積分 AI 對話錄](https://g.co/gemini/share/8d688e643989)
+講義： [向量微積分講義](https://g.co/gemini/share/8d688e643989)
 
 習題：
 
-1. 寫出 梯度，散度，旋度等函數 (並且用給定的向量場計算某點的梯度，散度和璇度)
+1. 寫出三維向量場的梯度，散度，旋度等函數 (並且用給定的向量場計算某點的梯度，散度和璇度)
 2. 寫出拉普拉斯算子的函數，並測試之 
    * 給定一曲面，計算某點的拉普拉斯算子之值
    * ∇^2f>0 凹，∇^2f<0 凸，∇^2f=0 平
@@ -130,7 +130,7 @@
 2. 歐拉公式證明（微分方程和歐拉公式的關係, 為何微分方程的解通常是 e^x 或 sin,cos, e^ix 這種形式）
 3. 傅立葉級數和轉換是什麼？
 
-講義： [傅立葉轉換 AI 對話錄](https://g.co/gemini/share/7432da495527)
+講義： [傅立葉轉換講義](https://g.co/gemini/share/7432da495527)
 
 習題：
 
@@ -139,47 +139,78 @@
 3. 寫程式驗證傅立葉正轉換後，再逆轉換回來會得到原序列
 4. 寫程式找出 sin(n x) + cos(m x) 的 n, m 分別是多少
 
-## 第10週：函數式編程
+## 第10週：微分方程
+
+1. 微分方程範例與求解方法
+2. 說明為何解通常是 e^cx 的形式 (c 可以是複數)
+3. 物理學上的微分方程（牛頓橢圓軌道，馬克士威電磁波推導，薛丁格波動方程推導，愛因斯坦重力波）
+
+講義：[微分方程講義](https://g.co/gemini/share/58408716e440)
+
+補充：[微分方程補充](https://g.co/gemini/share/855a76b05cae)
+
+習題：[微分方程習題](https://g.co/gemini/share/855a76b05cae)
+
+習題
+
+1. $f(t) = e^{k t}$ ，請計算 f'(t), f''(t)
+2. $f(t) = e^{i k t}$， i 指的是 -1 的開根號，請計算 f'(t), f''(t)
+3. $f(t) = sin(t)$ ，請計算 f'(t), f''(t), f'''(t), f''''(t)
+
+請用手算求解下列微分方程 
+
+1. $f'(t) = e^{t}$
+2. $f'(t) = e^{k t}$
+3. $f''(t) = e^{i t}$
+4. $f''(t) = e^{i k t}$
+
+請用 python 求解下列微分方程
+
+1. $\frac{dy}{dx} = \sin(x)$
+2. $\frac{dy}{dx} = x^2 y$ 
+    * 可分離變數的一階微分方程
+3. $\frac{dy}{dx} + \frac{2}{x}y = 4x$ 
+    * 一階線性微分方程，形式為 $\\frac{dy}{dx} + P(x)y = Q(x)$
+4. $\frac{d^2y}{dx^2} + 3\frac{dy}{dx} + 2y = 0$
+    * 二階常微分方程
+5. $\frac{dy}{dx} = y + 1$ 
+    * 初始條件: $y(0) = 1$
+6. $\frac{\partial u}{\partial x} + \frac{\partial u}{\partial y} = 0$ 偏微分方程
+7. $\frac{\partial^2 u}{\partial t^2} = v^2 \frac{\partial^2 u}{\partial x^2}$ 偏微分方程
+    * 
+
+
+## 第11週：函數式編程
 
 1. 講解函數式編程
 2. 講解泛函的觀念，整數或有理數函數的加減乘除也可以形成一個體 field (如何設計 IntFunction 物件)
+3. 說明 Lambda Calculus 如何用純函數的方式建構整個計算世界 （包含 curry , bool, numerial, Y-Combinator....)
 
-講義： [函數式編程 AI 對話錄]()
+講義： [函數式編程講義]()
 
 習題：
 
 1. 學習使用 python 的 map, filter, reduce 等函數
 2. 自行設計類似 python 的 map, filter, reduce 函數，改叫 my_map, my_filter, my_reduce
+3. 用 Y-Combinator 設計 power(a, n) 函數
 
-## 第11週：計算理論
+## 第12週：計算理論
 
 1. 講解從希爾伯特，哥德爾，丘奇，圖靈，喬姆斯基到庫克的故事
    * 使用老師寫的圖靈機，生成語法等程式
 
-講義： [計算理論 AI 對話錄]()
+講義： [計算理論講義]()
 
 習題：
 
 1. 設計一個語法，可以生成 數學運算式
 2. 設計一個圖靈機，可以生成 an bn cn 語法的字串
 
-## 第12周：Lambda Calculus
-
-說明 Lambda Calculus 如何用純函數的方式建構整個計算世界 （包含 curry , bool, numerial, Y-Combinator....)
-
-講義： [Lambda Calculus AI 對話錄]()
-
-習題：
-
-1. 用迴圈設計 power(a, n) 函數
-2. 用遞迴設計 power(a, n) 函數
-3. 用 Y-Combinator 設計 power(a, n) 函數
-
 ## 第13周：密碼學
 
 AES, RSA, ....
 
-講義： [密碼學 AI 對話錄]()
+講義： [密碼學講義]()
 
 1. 寫程式驗證 m^e^d = m
 2. 寫程式驗證用 RSA 編碼後，在解碼回來，會得到原資訊 （可以用套件）
@@ -188,7 +219,7 @@ AES, RSA, ....
 
 從狄拉克波動方程到原子的軌道理論（包力不相容原理）
 
-講義： [量子電腦 AI 對話錄]()
+講義： [量子電腦講義]()
 
 習題
 
