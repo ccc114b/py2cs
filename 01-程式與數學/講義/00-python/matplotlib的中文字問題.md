@@ -7,7 +7,7 @@
 # 'WenQuanYi Zen Hei' 適用於 Linux
 # plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] # Windows
 plt.rcParams['font.sans-serif'] = ['Heiti TC'] # macOS
-
+#plt.rcParams['font.family'] = 'Arial Unicode MS'
 # 解決負號'-'顯示為方塊的問題
 plt.rcParams['axes.unicode_minus'] = False 
 ```
