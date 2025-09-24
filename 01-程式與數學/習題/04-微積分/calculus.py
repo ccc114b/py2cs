@@ -1,6 +1,6 @@
 def df(f, x, h=0.00001):
-    # return (f(x+h)-f(x))/h
-    return (f(x+h)-f(x-h))/(2*h)
+    return (f(x+h)-f(x))/h
+    # return (f(x+h)-f(x-h))/(2*h)
 
 def dfn(f, x, n, h=0.00001):
     if n==0: return f(x)
@@ -19,5 +19,6 @@ if __name__ == "__main__":
     def f(x):
         return x**3
     
-    print('df(f, 2)=', df(f, 2))
-    print('integral(f, 0, 2)=', integral(f, 0, 2))
+    print('df(f, 2.0)=', df(f, 2.0))
+    print('integral(f, 0.0, 2.0)=', integral(f, 0.0, 2.0))
+    print('dfn(f, 2.0, 2)=', dfn(f, 2.0, 2))
