@@ -7,7 +7,7 @@ def check_closure(g):
         a = g.random_generate()
         b = g.random_generate()
         result = g.operation(a, b)
-        assert g.include(result), f"Closure failed: {a} {g.op} {b} = {result} is not in G"
+        assert g.include(result), f"Closure failed: {a} op {b} = {result} is not in G"
 
 # 2. 結合性 (Associativity)
 def check_associativity(g):
@@ -16,7 +16,7 @@ def check_associativity(g):
         b = g.random_generate()
         c = g.random_generate()
         assert g.operation(g.operation(a, b), c) == g.operation(a, g.operation(b, c)), \
-            f"Associativity failed: ({a} {g.op} {b}) {g.op} {c} != {a} {g.op} ({b} {g.op} {c})"
+            f"Associativity failed: ({a} op {b}) op {c} != {a} op ({b} op {c})"
 
 # 3. 單位元素 (Identity Element)
 def check_identity_element(g):
@@ -24,10 +24,10 @@ def check_identity_element(g):
         a = g.random_generate()
         # 左單位元素
         assert g.operation(a, g.identity) == a, \
-            f"Left identity failed: {a} {g.op} {g.identity} != {a}"
+            f"Left identity failed: {a} op {g.identity} != {a}"
         # 右單位元素
         assert g.operation(g.identity, a) == a, \
-            f"Right identity failed: {identity} {g.op} {a} != {a}"
+            f"Right identity failed: {identity} op {a} != {a}"
 
 # 4. 反元素 (Inverse Element)
 def check_inverse_element(g):
@@ -43,10 +43,10 @@ def check_inverse_element(g):
 
         # 檢查左反元素
         assert g.operation(a, a_inverse) == g.identity, \
-            f"Left inverse failed: {a} {g.op} {a_inverse} != {g.identity}"
+            f"Left inverse failed: {a} op {a_inverse} != {g.identity}"
         # 檢查右反元素
         assert g.operation(a_inverse, a) == g.identity, \
-            f"Right inverse failed: {a_inverse} {g.op} {a} != {g.identity}"
+            f"Right inverse failed: {a_inverse} op {a} != {g.identity}"
 
 # 5. 交換性 (Commutativity)
 def check_commutativity(g):
@@ -54,7 +54,7 @@ def check_commutativity(g):
         a = g.random_generate()
         b = g.random_generate()
         assert g.operation(a, b) == g.operation(b, a), \
-            f"Commutativity failed: {a} {g.op} {b} != {b} {g.op} {a}"
+            f"Commutativity failed: {a} op {b} != {b} op {a}"
             
 def check_group_axioms(g):
     check_closure(g)
