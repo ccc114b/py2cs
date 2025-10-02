@@ -1,5 +1,5 @@
 import math
-from geometry2d import Point, Line, Circle, solve_quadratic, get_perpendicular_line
+from geometry2d_points import Point, Line, Circle, solve_quadratic, get_perpendicular_line
 
 # --- 新增：計算兩點距離 ---
 def distance(P1: Point, P2: Point):
