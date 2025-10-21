@@ -2,7 +2,7 @@ from stateSearch import State, bfs
 
 class StateBoard(State):
 	def __init__(self):
-		
+		pass
 	def __str__(self):
 		rows = []
 		for row in b:
@@ -14,6 +14,9 @@ start= [[1,3,4],
         [7,0,6]]
 
 queue=[start] # BFS 用的 queue, 起始點為 1。
+goal = [[1,2,3], 
+        [8,0,4],
+        [7,6,5]]
 visited={}
 parent={}
 level={}
