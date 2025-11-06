@@ -67,9 +67,11 @@ a = "010100001"
 b = "010100010"
 print("dist(%s,%s) = %s", a, b, editDistance(a,b))
 '''
-# b = "ATG  ATCCG"
+b = "ATG  ATCCG"
 a = 'ATGCAATCCC'
-b = 'ATGATCCG'
+# b = 'ATGATCCG'
+# a = 'sitting'
+# b = 'kitten'
 # b = "  TCCGAA"
 # a   = "ATCCCAAA"
 # b   = "TCCGAA"
