@@ -1,8 +1,8 @@
 from math import sin, pi
 
 def df(f, x, h=0.00001):
-    # return (f(x+h)-f(x))/h
-    return (f(x+h)-f(x-h))/(2*h)
+    return (f(x+h)-f(x))/h
+    # return (f(x+h)-f(x-h))/(2*h)
 
 def dfn(f, x, n, h=0.00001):
     if n==0: return f(x)
