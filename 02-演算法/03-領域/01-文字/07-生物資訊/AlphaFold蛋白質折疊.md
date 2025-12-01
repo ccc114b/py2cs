@@ -4,6 +4,8 @@
 
 * 使用 -- https://deepmind.google/science/alphafold/
 
+* 程式 -- https://github.com/google-deepmind/alphafold
+
 * 影片 -- [AlphaFold - The Most Useful Thing AI Has Ever Done](https://www.youtube.com/watch?v=P_fHJIYENdI)
     * 相關影片 -- [The Thinking Game](https://www.youtube.com/watch?v=d95J8yzvjbQ)
 
