@@ -70,10 +70,12 @@ def random_hill_climbing(loss_func, p_target, q_init, max_loops=10000):
 # ---------------------------------------------------------
 if __name__ == "__main__":
     # 目標分佈 p
-    p = np.array([1/2, 1/4, 1/4])
+    #p = np.array([1/2, 1/4, 1/4])
+    p = np.array([0.2, 0.5, 0.3])
     
     # 初始猜測 q
-    q_start = np.array([1/3, 1/3, 1/3])
+    #q_start = np.array([1/3, 1/3, 1/3])
+    q_start = np.array([0.1, 0.7, 0.2])
     
     print(f"Target p: {p}")
     print(f"Target Min Loss (Entropy): {entropy(p):.5f}\n")
