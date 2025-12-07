@@ -15,7 +15,7 @@ def partial_derivative(f, p, index, h=1e-5):
 def gradient(f, p):
     return np.array([partial_derivative(f, p, i) for i in range(len(p))])
 
-class VectorField:
+class TangentVector:
     def __init__(self, func_of_p, name="V"):
         self.func = func_of_p # func(p) -> array
         self.name = name
@@ -32,7 +32,7 @@ def lie_bracket(u, v):
         term1 = (v.at(p + h * u_val) - v.at(p - h * u_val)) / (2 * h)
         term2 = (u.at(p + h * v_val) - u.at(p - h * v_val)) / (2 * h)
         return term1 - term2
-    return VectorField(bracket_func)
+    return TangentVector(bracket_func)
 
 class Form:
     def __init__(self, degree, evaluator):
@@ -123,9 +123,9 @@ def integrate_form(form, domain):
         # 這些切向量代表了參數網格的變形
         basis_vectors_data = domain.get_tangent_vectors(u_params)
         
-        # 3. 將數據轉為我們系統的 VectorField 物件
+        # 3. 將數據轉為我們系統的 TangentVector 物件
         # 注意：這裡我們建立的是「局部常數」向量，因為我們只在當下這點評估
-        basis_vector_fields = [VectorField(lambda _, v=v_data: v) for v_data in basis_vectors_data]
+        basis_vector_fields = [TangentVector(lambda _, v=v_data: v) for v_data in basis_vectors_data]
         
         # 4. 讓 Form 吃掉這些切向量，並在點 p 評估
         val = form(*basis_vector_fields)(p)

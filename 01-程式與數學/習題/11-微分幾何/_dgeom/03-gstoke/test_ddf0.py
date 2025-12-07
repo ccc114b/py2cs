@@ -1,5 +1,6 @@
-from dgeom import VectorField, Form, d, HyperCube, integrate_form
+from dgeom import TangentVector, Form, d, HyperCube, integrate_form
 import numpy as np
+
 if __name__ == "__main__":
     print("=== 通用外微分 d 測試 ===\n")
     
@@ -19,7 +20,7 @@ if __name__ == "__main__":
     form1 = d(form0) # 這是 1-form
     
     # 定義向量 v = (1, 3, 0)
-    v = VectorField(lambda p: [1, 3, 0], name="v")
+    v = TangentVector(lambda p: [1, 3, 0], name="v")
     
     # df(v) 應該等於 v(f)
     res_df = form1(v)(p_test)
@@ -47,8 +48,8 @@ if __name__ == "__main__":
     # 如果我們選 u=(1,0,0) (x方向), v=(0,1,0) (y方向)
     # dω(u, v) 應該是 -1
     
-    u = VectorField(lambda p: [1, 0, 0], name="∂x")
-    v = VectorField(lambda p: [0, 1, 0], name="∂y")
+    u = TangentVector(lambda p: [1, 0, 0], name="∂x")
+    v = TangentVector(lambda p: [0, 1, 0], name="∂y")
     
     d_omega = d(omega) # 這是 2-form
     
@@ -66,10 +67,10 @@ if __name__ == "__main__":
     d2_omega = d(d_omega) # 3-form
     
     # 隨便選三個向量
-    w = VectorField(lambda p: [0, 0, 1], name="∂z")
+    w = TangentVector(lambda p: [0, 0, 1], name="∂z")
     
     # 這裡我們使用稍複雜的變動向量場來確保 Lie Bracket 項有被運算到
-    v_complex = VectorField(lambda p: [p[1], p[0], 0], name="V_mix")
+    v_complex = TangentVector(lambda p: [p[1], p[0], 0], name="V_mix")
     
     val_zero = d2_omega(u, v_complex, w)(p_test)
     print(f"驗證 d^2 = 0")

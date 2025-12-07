@@ -1,4 +1,4 @@
-from dgeom import VectorField, Form, d, HyperCube, integrate_form
+from dgeom import TangentVector, Form, d, HyperCube, integrate_form
 import numpy as np
 # ==========================================
 # Part 4: 驗證廣義史托克定理

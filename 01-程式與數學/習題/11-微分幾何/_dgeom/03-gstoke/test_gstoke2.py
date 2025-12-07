@@ -1,5 +1,5 @@
 import numpy as np
-from dgeom import Form, VectorField, d, integrate_form, HyperCube, ParametrizedDomain, ParametricPatch
+from dgeom import Form, TangentVector, d, integrate_form, HyperCube, ParametrizedDomain, ParametricPatch
 
 # ==========================================
 # 測試案例

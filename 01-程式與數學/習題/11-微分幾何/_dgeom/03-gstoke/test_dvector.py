@@ -1,4 +1,4 @@
-from dgeom import VectorField, Form, d, HyperCube, integrate_form, d
+from dgeom import TangentVector, Form, d, HyperCube, integrate_form, d
 import numpy as np
 
 if __name__ == "__main__":
@@ -14,6 +14,6 @@ if __name__ == "__main__":
         x, y = p
         return [2*x, y] # v = (2x, y)
 
-    v_field = VectorField(wind_func)
+    v_field = TangentVector(wind_func)
     val = v_field(f)(p)
     print(f"在位置 p={p}，向量場 v_field 對 f 的作用結果為: {val}")
