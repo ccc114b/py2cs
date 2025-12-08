@@ -8,5 +8,6 @@ python -m tests.test_black_hole
 
 # dgeom.sym 版的 dvector 測試
 python -m tests.test_dvector
+
 # dgeom.num 版的測試
 python -m tests.test_num_dvector
