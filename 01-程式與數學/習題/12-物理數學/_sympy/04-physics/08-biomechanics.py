@@ -1,1 +1,0 @@
-# https://docs.sympy.org/latest/modules/physics/biomechanics/api/musculotendon.html
