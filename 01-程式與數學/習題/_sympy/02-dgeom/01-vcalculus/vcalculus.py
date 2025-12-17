@@ -66,30 +66,6 @@ print(f"v1 · v2 = {v_dot}")
 print(f"|v1| = {v_magnitude}")
 
 print("\n" + "=" * 70)
-
-print("\n" + "=" * 70)
-print("2. 向量的定義與運算")
-print("=" * 70)
-
-# 定義向量
-v1 = 3*N.i + 4*N.j + 5*N.k
-v2 = N.x*N.i + N.y*N.j + N.z*N.k  # 位置向量
-
-print(f"\n向量 v1 = {v1}")
-print(f"向量 v2 = {v2}")
-
-# 向量運算
-v_sum = v1 + N.i
-v_cross = v1.cross(v2)
-v_dot = v1.dot(v2)
-v_magnitude = v1.magnitude()
-
-print(f"\nv1 + i = {v_sum}")
-print(f"v1 × v2 = {v_cross}")
-print(f"v1 · v2 = {v_dot}")
-print(f"|v1| = {v_magnitude}")
-
-print("\n" + "=" * 70)
 print("3. 梯度 (Gradient) - ∇f")
 print("=" * 70)
 
