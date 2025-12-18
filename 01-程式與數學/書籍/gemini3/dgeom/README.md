@@ -5,7 +5,7 @@
 * [第 1 章：向量場與純量場 (Vector and Scalar Fields)](https://gemini.google.com/share/0a63a7f9080f)
     * 程式：[範例程式](code/01.py) + [程式解說](https://gemini.google.com/share/6e8706deacf3)
     * 習題：[習題與解答](https://gemini.google.com/share/fe94deb416dd)
-* [第 2 章：向量微分運算子 (Vector Differential Operators)](https://gemini.google.com/app/0afbda7f94f9d350)
+* [第 2 章：向量微分運算子 (Vector Differential Operators)](https://gemini.google.com/share/9fde78c1e0fc)
     * 程式：[範例程式](code/02.py) + [程式解說](https://gemini.google.com/share/8a6973353fc0)
     * 習題：[習題與解答](https://gemini.google.com/share/e9be72d46b19)
 * [第 3 章：向量積分定理 (Vector Integral Theorems)](https://gemini.google.com/share/82fb86743540)
