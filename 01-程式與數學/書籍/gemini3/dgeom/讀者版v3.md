@@ -35,7 +35,7 @@
 * [第 9 章：相對論性動力學 (Relativistic Dynamics)](https://gemini.google.com/share/6935b4854252)
     * 程式：[範例程式](code/09.py) + [程式解說](https://gemini.google.com/share/cbbf56e20439)
     * 習題：[習題與解答](https://gemini.google.com/share/804d4c37ca9d)
-* [第 10 章：等效原理與重力的幾何 (The Equivalence Principle and Geometry of Gravity)](https://gemini.google.com/share/d993b03860b9)
+* [第 10 章：等效原理與重力的幾何 (The Equivalence Principle and Geometry of Gravity)](https://gemini.google.com/share/bf8fbbc11036)
     * 程式：[範例程式](code/10.py) + [程式解說](https://gemini.google.com/share/dcff704021de)
     * 習題：[習題與解答](https://gemini.google.com/share/071b2d731a28)
 * [第 11 章：愛因斯坦場方程式 (Einstein Field Equations, EFE)](https://gemini.google.com/share/c1cb03cdb45d)
