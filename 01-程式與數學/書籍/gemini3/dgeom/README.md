@@ -44,3 +44,6 @@
 * [第 12 章：愛因斯坦場方程式的解與應用 (Solutions and Applications of EFE)](https://gemini.google.com/share/5f1a89e54587)
     * 程式：[範例程式](code/12.py) + [程式解說](https://gemini.google.com/share/0d1cb908883f)
     * 實例：[本章範例](https://gemini.google.com/share/0784ac098afe) + [習題解答](https://gemini.google.com/share/aa8639e20ed4)
+* 附錄
+    * [1905-狹義相對論-論文翻譯](https://gemini.google.com/share/8fe85dffc490)
+    * [1916-廣義相對論-論文翻譯](https://gemini.google.com/share/a1078a2b9968)
