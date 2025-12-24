@@ -1,0 +1,8 @@
+units_audio/ni3.mp3|ni3
+units_audio/wo3.mp3|wo3
+units_audio/ta1.mp3|ta1
+units_audio/shi4.mp3|shi4
+units_audio/ai4.mp3|ai4
+units_audio/you3.mp3|you3
+units_audio/xiang3.mp3|xiang3
+units_audio/de.mp3|de
