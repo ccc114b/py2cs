@@ -11,7 +11,7 @@ def train():
     model = get_model(env)
     
     # 設定訓練步數 (建議至少 2,000,000)
-    total_timesteps = 2000000
+    total_timesteps = 5000000 #2000000
     
     print("開始訓練...")
     model.learn(total_timesteps=total_timesteps, progress_bar=True)
