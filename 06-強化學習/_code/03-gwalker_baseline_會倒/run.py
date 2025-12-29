@@ -2,13 +2,14 @@
 import gymnasium as gym
 from stable_baselines3 import PPO
 import time
+import sys
 
-def run():
+def run(env_name):
     # 建立環境，設定 render_mode 為 human 才能看到畫面
-    env = gym.make("Humanoid-v4", render_mode="human")
+    env = gym.make(env_name, render_mode="human")
     
     # 載入模型
-    model_path = "humanoid_ppo_model.zip"
+    model_path = env_name + ".zip"
     try:
         model = PPO.load(model_path, env=env)
         print("成功載入模型！")
@@ -35,4 +36,4 @@ def run():
     env.close()
 
 if __name__ == "__main__":
-    run()
+    run(sys.argv[1])

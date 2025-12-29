@@ -19,6 +19,7 @@ files
 *.gz
 raw
 *.pth
+*.pkl
 .pytest_cache
 *.bin
 .cache/
