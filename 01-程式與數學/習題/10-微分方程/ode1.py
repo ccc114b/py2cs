@@ -24,6 +24,7 @@ def solve_ode_general(coefficients):
     # 由於浮點數誤差，需要進行四捨五入或設置一個容忍度
     # 這裡採用簡單的四捨五入到一定小數位數來分組
     rounded_roots = np.round(roots, decimals=8)
+    # rounded_roots = np.round(roots, decimals=4)
     root_counts = Counter(rounded_roots)
     
     # 3. 處理根的類型並構建基礎解
@@ -118,7 +119,7 @@ coeffs4 = [1, 0, 2, 0, 1]
 print(f"方程係數: {coeffs4}")
 print(solve_ode_general(coeffs4))
 
-# 範例測試 (5): 高階混和根: y''' - 6y'' + 12y' - 8y = 0  特徵方程: (lambda - 2)^3 = 0, 根: 2, 2, 2
+# 範例測試 (5): 高階重根: y''' - 6y'' + 12y' - 8y = 0  特徵方程: (lambda - 2)^3 = 0, 根: 2, 2, 2
 # 預期解: C_1e^(2x) + C_2xe^(2x) + C_3x^2e^(2x)
 print("\n--- 高階重根範例 ---")
 coeffs5 = [1, -6, 12, -8]
