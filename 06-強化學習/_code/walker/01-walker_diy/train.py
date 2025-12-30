@@ -16,7 +16,7 @@ def train():
     
     print("開始訓練 (優化版)...")
 
-    for i_update in range(2000): # 增加到 2000 次更新
+    for i_update in range(200): # 原為 2000 次更新，改為 200 次以加快訓練
         buffer_s, buffer_a, buffer_lp, buffer_r, buffer_d = [], [], [], [], []
         state, _ = env.reset()
         
