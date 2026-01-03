@@ -1,0 +1,13 @@
+./togfm.sh 01-基礎
+./togfm.sh 02-代數
+./togfm.sh 03-幾何
+./togfm.sh 04-微積分
+./togfm.sh 05-機率統計
+./togfm.sh 06-資訊理論
+./togfm.sh 07-計算理論
+./togfm.sh 09-圖形理論
+./togfm.sh 11-AI背後的數學
+./togfm.sh A1-應用
+./togfm.sh H1-歷史
+./togfm.sh A1-應用
+./togfm.sh Q1-問題

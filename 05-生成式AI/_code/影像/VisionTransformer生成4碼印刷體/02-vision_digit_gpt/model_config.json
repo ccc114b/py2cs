@@ -1,0 +1,1 @@
+{"chars": "0123456789 ", "n_embd": 128, "n_head": 8, "n_layer": 4, "img_w": 64, "img_h": 16, "patch_size": 8, "text_len": 4}

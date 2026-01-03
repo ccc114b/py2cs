@@ -1,0 +1,1 @@
+python -m chargpt.predict "問：佛在哪裡？"

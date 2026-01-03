@@ -1,0 +1,100 @@
+output_audio/sentence_0001.mp3|wo3
+output_audio/sentence_0002.mp3|ni3
+output_audio/sentence_0003.mp3|ta1
+output_audio/sentence_0004.mp3|shi4
+output_audio/sentence_0005.mp3|you3
+output_audio/sentence_0006.mp3|ai4
+output_audio/sentence_0007.mp3|xiang3
+output_audio/sentence_0008.mp3|de
+output_audio/sentence_0009.mp3|wo3 shi4 ta1
+output_audio/sentence_0010.mp3|ta1 shi4 wo3
+output_audio/sentence_0011.mp3|wo3 shi4 ni3
+output_audio/sentence_0012.mp3|ni3 shi4 wo3
+output_audio/sentence_0013.mp3|ta1 shi4 ni3
+output_audio/sentence_0014.mp3|ni3 shi4 ta1
+output_audio/sentence_0015.mp3|wo3 you3
+output_audio/sentence_0016.mp3|ni3 you3
+output_audio/sentence_0017.mp3|ta1 you3
+output_audio/sentence_0018.mp3|wo3 ai4
+output_audio/sentence_0019.mp3|ni3 ai4
+output_audio/sentence_0020.mp3|ta1 ai4
+output_audio/sentence_0021.mp3|wo3 xiang3
+output_audio/sentence_0022.mp3|ni3 xiang3
+output_audio/sentence_0023.mp3|ta1 xiang3
+output_audio/sentence_0024.mp3|wo3 de shi4
+output_audio/sentence_0025.mp3|ni3 de you3
+output_audio/sentence_0026.mp3|ta1 de xiang3
+output_audio/sentence_0027.mp3|wo3 ai4 ni3
+output_audio/sentence_0028.mp3|ni3 ai4 wo3
+output_audio/sentence_0029.mp3|ta1 ai4 wo3
+output_audio/sentence_0030.mp3|wo3 ai4 ta1
+output_audio/sentence_0031.mp3|ta1 ai4 ni3
+output_audio/sentence_0032.mp3|ni3 ai4 ta1
+output_audio/sentence_0033.mp3|wo3 xiang3 ni3
+output_audio/sentence_0034.mp3|ni3 xiang3 wo3
+output_audio/sentence_0035.mp3|ta1 xiang3 wo3
+output_audio/sentence_0036.mp3|wo3 xiang3 ta1
+output_audio/sentence_0037.mp3|ta1 xiang3 ni3
+output_audio/sentence_0038.mp3|ni3 xiang3 ta1
+output_audio/sentence_0039.mp3|shi4 wo3 de
+output_audio/sentence_0040.mp3|shi4 ni3 de
+output_audio/sentence_0041.mp3|shi4 ta1 de
+output_audio/sentence_0042.mp3|you3 wo3 de
+output_audio/sentence_0043.mp3|you3 ni3 de
+output_audio/sentence_0044.mp3|you3 ta1 de
+output_audio/sentence_0045.mp3|wo3 de shi4 ni3 de
+output_audio/sentence_0046.mp3|wo3 de shi4 ta1 de
+output_audio/sentence_0047.mp3|ni3 de shi4 wo3 de
+output_audio/sentence_0048.mp3|ni3 de shi4 ta1 de
+output_audio/sentence_0049.mp3|ta1 de shi4 wo3 de
+output_audio/sentence_0050.mp3|ta1 de shi4 ni3 de
+output_audio/sentence_0051.mp3|wo3 ai4 wo3 de
+output_audio/sentence_0052.mp3|ni3 ai4 ni3 de
+output_audio/sentence_0053.mp3|ta1 ai4 ta1 de
+output_audio/sentence_0054.mp3|wo3 xiang3 wo3 de
+output_audio/sentence_0055.mp3|ni3 xiang3 ni3 de
+output_audio/sentence_0056.mp3|ta1 xiang3 ta1 de
+output_audio/sentence_0057.mp3|wo3 you3 ai4
+output_audio/sentence_0058.mp3|ni3 you3 ai4
+output_audio/sentence_0059.mp3|ta1 you3 ai4
+output_audio/sentence_0060.mp3|wo3 you3 xiang3
+output_audio/sentence_0061.mp3|ni3 you3 xiang3
+output_audio/sentence_0062.mp3|ta1 you3 xiang3
+output_audio/sentence_0063.mp3|wo3 ai4 de shi4 ni3
+output_audio/sentence_0064.mp3|ni3 ai4 de shi4 wo3
+output_audio/sentence_0065.mp3|ta1 ai4 de shi4 wo3
+output_audio/sentence_0066.mp3|wo3 ai4 de shi4 ta1
+output_audio/sentence_0067.mp3|ta1 ai4 de shi4 ni3
+output_audio/sentence_0068.mp3|ni3 ai4 de shi4 ta1
+output_audio/sentence_0069.mp3|wo3 xiang3 de shi4 ni3
+output_audio/sentence_0070.mp3|ni3 xiang3 de shi4 wo3
+output_audio/sentence_0071.mp3|ta1 xiang3 de shi4 wo3
+output_audio/sentence_0072.mp3|wo3 xiang3 de shi4 ta1
+output_audio/sentence_0073.mp3|ta1 xiang3 de shi4 ni3
+output_audio/sentence_0074.mp3|ni3 xiang3 de shi4 ta1
+output_audio/sentence_0075.mp3|wo3 shi4 you3 ai4 de
+output_audio/sentence_0076.mp3|ni3 shi4 you3 ai4 de
+output_audio/sentence_0077.mp3|ta1 shi4 you3 ai4 de
+output_audio/sentence_0078.mp3|wo3 shi4 you3 xiang3 de
+output_audio/sentence_0079.mp3|ni3 shi4 you3 xiang3 de
+output_audio/sentence_0080.mp3|ta1 shi4 you3 xiang3 de
+output_audio/sentence_0081.mp3|wo3 shi4 ai4 ni3 de
+output_audio/sentence_0082.mp3|ni3 shi4 ai4 wo3 de
+output_audio/sentence_0083.mp3|ta1 shi4 ai4 wo3 de
+output_audio/sentence_0084.mp3|wo3 shi4 ai4 ta1 de
+output_audio/sentence_0085.mp3|ta1 shi4 ai4 ni3 de
+output_audio/sentence_0086.mp3|ni3 shi4 ai4 ta1 de
+output_audio/sentence_0087.mp3|wo3 shi4 xiang3 ni3 de
+output_audio/sentence_0088.mp3|ni3 shi4 xiang3 wo3 de
+output_audio/sentence_0089.mp3|ta1 shi4 xiang3 wo3 de
+output_audio/sentence_0090.mp3|wo3 shi4 xiang3 ta1 de
+output_audio/sentence_0091.mp3|ta1 shi4 xiang3 ni3 de
+output_audio/sentence_0092.mp3|ni3 shi4 xiang3 ta1 de
+output_audio/sentence_0093.mp3|wo3 de ai4
+output_audio/sentence_0094.mp3|ni3 de ai4
+output_audio/sentence_0095.mp3|ta1 de ai4
+output_audio/sentence_0096.mp3|wo3 de xiang3
+output_audio/sentence_0097.mp3|ni3 de xiang3
+output_audio/sentence_0098.mp3|ta1 de xiang3
+output_audio/sentence_0099.mp3|ai4 wo3 de shi4 ni3
+output_audio/sentence_0100.mp3|xiang3 ni3 de shi4 wo3
