@@ -1,0 +1,1 @@
+python3 toyclaw.py --mode tool --output human --trace --max-steps 8  
