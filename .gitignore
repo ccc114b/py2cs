@@ -1,4 +1,7 @@
-
+# rust
+release/
+debug/
+target/
 
 # gradio
 .gradio
