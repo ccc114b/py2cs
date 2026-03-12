@@ -1,4 +1,5 @@
 use crate::tensor::Tensor;
+use crate::backend::Device;
 
 // ==========================================
 // 1. 全連接層 (Linear Layer)
@@ -9,11 +10,16 @@ pub struct Linear {
 }
 
 impl Linear {
-    /// 建立一個包含隨機權重與全零偏差值的 Linear 層
+    /// 建立一個包含隨機權重與全零偏差值的 Linear 層 (預設裝置)
     pub fn new(in_features: usize, out_features: usize) -> Self {
+        Self::new_on(in_features, out_features, Device::default())
+    }
+
+    /// 在指定裝置建立 Linear 層
+    pub fn new_on(in_features: usize, out_features: usize, device: Device) -> Self {
         Self {
-            weight: Tensor::randn(&[in_features, out_features]),
-            bias: Tensor::new(&vec![0.0; out_features], &[out_features]),
+            weight: Tensor::randn_on(&[in_features, out_features], device),
+            bias: Tensor::new_on(&vec![0.0; out_features], &[out_features], device),
         }
     }
 
